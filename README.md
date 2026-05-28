@@ -1,1 +1,2 @@
-# LogicadePrograma-oVisualg
+# Logica de Programação Visualg
+Professor: Luiz
