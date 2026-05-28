@@ -1,0 +1,20 @@
+algoritmo "Login do Google "
+
+var
+   senha, tentativa: caractere
+
+inicio
+   senha <- "two_one_two"
+
+   escreva("Digite a senha: ")
+   leia(tentativa)
+
+   enquanto (tentativa <> senha) faca
+      escreval("Senha incorreta! Tente novamente.")
+      escreva("Digite a senha: ")
+      leia(tentativa)
+   fimenquanto
+
+   escreval("Seja bem vindo a sua conta.")
+
+fimalgoritmo

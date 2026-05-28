@@ -1,0 +1,51 @@
+algoritmo "Calculomatica"
+
+var
+num1, num2, resultado: real
+opcao: inteiro
+
+inicio
+ escreva("Digite o primeiro número: ")
+leia(num1)
+
+  escreva("Digite o segundo número: ")
+  leia(num2)
+
+  escreval("")
+  escreval("Calculamaquina")
+  escreval("1 - Adição")
+  escreval("2 - Subtração")
+  escreval("3 - Multiplicação")
+  escreval("4 - Divisão")
+
+  escreva("Escolha uma opção: ")
+  leia(opcao)
+
+  escolha opcao
+
+  caso 1
+  resultado <- num1 + num2
+  escreval("Resultado da adição: ", resultado)
+
+  caso 2
+ resultado <- num1 - num2
+escreval("Resultado da subtração: ", resultado)
+
+caso 3
+resultado <- num1 * num2
+escreval("Resultado da multiplicação: ", resultado)
+
+caso 4
+se num2 <> 0 entao
+ resultado <- num1 / num2
+ escreval("Resultado da divisão: ", resultado)
+ senao
+ escreval("Erro: divisão por zero não existe.")
+fimse
+
+outrocaso
+escreval("Opção Inesistente!")
+
+ fimescolha
+
+fimalgoritmo
