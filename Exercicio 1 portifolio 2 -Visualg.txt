@@ -1,4 +1,4 @@
-algoritmo "Calculomatica"
+algoritmo "Calculadora"
 
 var
 num1, num2, resultado: real
